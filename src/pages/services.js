@@ -7,6 +7,7 @@ import image03 from '../components/images/image03.jpeg'
 
 import { Link } from 'react-router-dom'
 import {motion} from 'framer-motion'
+import ReturnToTop from "../components/navigation/return-to-top";
 
 
 
@@ -77,6 +78,7 @@ const Services = () => {
        <h2>Book Your Stay Today.</h2>
        <p><Link to="/Contact">BOOK AN APPOINTMENT</Link></p>
   </div>
+  <ReturnToTop/>
   </motion.div>
 }
 

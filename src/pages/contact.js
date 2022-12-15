@@ -4,6 +4,7 @@ import classes from '../components/styles/contact.module.css'
 
 import { Link } from 'react-router-dom'
 import {motion} from 'framer-motion'
+import ReturnToTop from "../components/navigation/return-to-top";
 
 
 const Contact = () => {
@@ -49,6 +50,7 @@ const Contact = () => {
       </div>
       
   </div>
+  <ReturnToTop/>
   </motion.div>
 };
 
