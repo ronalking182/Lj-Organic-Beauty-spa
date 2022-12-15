@@ -19,7 +19,7 @@ const FooterBar = () => {
          </span>
          <span className={classes.socials}>
              <Link to='/#' state={{color:"#ffff"}}><FaFacebookF/></Link>
-             <Link to='https://www.instagram.com/lj_organic_spa/'><AiFillInstagram/></Link>
+             <button className={classes.bt} onClick={() => window.location.href='https://www.instagram.com/lj_organic_spa/'} ><AiFillInstagram/></button>
              <button className={classes.bt} onClick={() => window.location.href= 'mailto:lgorganicbeautyspa@gmail.com'}>
                 {/* <Link> */}
                     <GrMail/> 
