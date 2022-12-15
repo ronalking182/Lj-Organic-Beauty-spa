@@ -42,7 +42,8 @@ flex-direction: column;
     display:flex;
     align-items:center;
     justify-content:center;
-    border:1px solid black;
+    /* border:1px solid black; */
+    border:none;
     height: 40px !important;
     }
     

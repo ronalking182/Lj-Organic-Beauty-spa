@@ -30,32 +30,32 @@ const service = [
     },
 ]
 
-const ServiceCare =[
-    {
-        title:"Sauna Bath",
-        body:"Our facials include a skin analysis to help individualize each facial to your unique needs."
-    },
-    {
-        title:"Micro Blading",
-        body:"Located near the verdant paddy field, this amazing spa is swathed in tropical flora and trickling waterfalls."
-    },
-    {
-        title:"Full Body Massage/Scrub",
-        body:"Includes a facial cleansing, scalp massage, and a toner. It is depending on your skin care needs."
-    },
-    {
-        title:"Body Contouring/Shaping",
-        body:"A system of medicine that treats the whole individual and removing sickness or restoring health."
-    },
-    {
-        title:"Semi Permanent make up",
-        body:"A system of medicine that treats the whole individual and removing sickness or restoring health."
-    },
-    {
-        title:"Facials/Mole/Skin tags",
-        body:"A system of medicine that treats the whole individual and removing sickness or restoring health."
-    },
-]
+// const ServiceCare =[
+//     {
+//         title:"Sauna Bath",
+//         body:"Our facials include a skin analysis to help individualize each facial to your unique needs."
+//     },
+//     {
+//         title:"Micro Blading",
+//         body:"Located near the verdant paddy field, this amazing spa is swathed in tropical flora and trickling waterfalls."
+//     },
+//     {
+//         title:"Full Body Massage/Scrub",
+//         body:"Includes a facial cleansing, scalp massage, and a toner. It is depending on your skin care needs."
+//     },
+//     {
+//         title:"Body Contouring/Shaping",
+//         body:"A system of medicine that treats the whole individual and removing sickness or restoring health."
+//     },
+//     {
+//         title:"Semi Permanent make up",
+//         body:"A system of medicine that treats the whole individual and removing sickness or restoring health."
+//     },
+//     {
+//         title:"Facials/Mole/Skin tags",
+//         body:"A system of medicine that treats the whole individual and removing sickness or restoring health."
+//     },
+// ]
 
 const Body = () => {
 
@@ -136,7 +136,7 @@ const Body = () => {
   <motion.div className={classes.closingTag}>
        <h2>Welcome to LJ Organic.</h2>
        <h2>Book Your Stay Today.</h2>
-       <p><Link to='/#'>BOOK AN APPOINTMENT</Link></p>
+       <p><Link to='/Contact'>BOOK AN APPOINTMENT</Link></p>
   </motion.div>
   </>
 };

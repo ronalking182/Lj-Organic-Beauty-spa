@@ -75,7 +75,7 @@ const Services = () => {
       <div className={classes.closingTag}>
        <h2>Welcome to LJ Organic.</h2>
        <h2>Book Your Stay Today.</h2>
-       <p><Link to='/#'>BOOK AN APPOINTMENT</Link></p>
+       <p><Link to="/Contact">BOOK AN APPOINTMENT</Link></p>
   </div>
   </motion.div>
 }
