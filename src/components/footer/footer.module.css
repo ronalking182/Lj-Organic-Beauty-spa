@@ -26,6 +26,10 @@
     justify-content: center;
 }
 
+.bt{
+    border:none;
+    background: transparent;
+}
 
 .location{
     display:flex;
